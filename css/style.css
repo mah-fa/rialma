@@ -73,8 +73,6 @@
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
 }
@@ -85,8 +83,6 @@
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
 }
@@ -97,8 +93,6 @@
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
 }
@@ -109,8 +103,6 @@
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
 }
@@ -281,6 +273,7 @@
   margin-left: -15px;
   background: #fff;
   background: rgba(255, 255, 255, 0.4);
+  -webkit-border-radius: 25px;
   border-radius: 25px;
   padding-right: 5px;
   padding-left: 5px;
@@ -299,6 +292,8 @@
 @media screen and (max-width:767px) {
   #section2_L {
     position: relative;
+    top: 0px;
+    left: 0px;
     width: 100%;
     height: 50%;
     background-color: #c84831;
@@ -307,6 +302,8 @@
 @media screen and (min-width:768px) and (max-width: 991px) {
   #section2_L {
     position: relative;
+    top: 0px;
+    left: 0px;
     width: 50%;
     height: 100%;
     background-color: #c84831;
@@ -315,6 +312,8 @@
 @media screen and (min-width:992px) and (max-width: 1199px) {
   #section2_L {
     position: relative;
+    top: 0px;
+    left: 0px;
     width: 50%;
     height: 100%;
     background-color: #c84831;
@@ -323,6 +322,8 @@
 @media screen and (min-width:1200px) {
   #section2_L {
     position: relative;
+    top: 0px;
+    left: 0px;
     width: 50%;
     height: 100%;
     background-color: #c84831;
@@ -895,7 +896,9 @@
   margin: 0;
   font-family: "lightexpanded";
   width: 300px;
+  -webkit-box-sizing: border-box;
   /* For legacy WebKit based browsers */
+  -moz-box-sizing: border-box;
   /* For legacy (Firefox <29) Gecko based browsers */
   box-sizing: border-box;
   padding: 0 20px;
@@ -1022,6 +1025,7 @@
 #menubar li {
   background: #fff;
   background: rgba(255, 255, 255, 0.5);
+  -webkit-border-radius: 10px;
   border-radius: 10px;
 }
 @media screen and (max-width:767px) {
