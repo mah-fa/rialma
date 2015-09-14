@@ -16,12 +16,7 @@ $(document).ready(function() {
         });
     }
     if (Modernizr.mq('(min-width:768px) and (max-width: 991px)')) {
-        jQuery(function($) {
-            $('body').panelSnap({
-              menuSelector: 'a',
-              $menu: $('#header #menu #menubar li')
-            });
-        });
+        
     }
     if (Modernizr.mq('(max-width: 767px)')) {}
 });
