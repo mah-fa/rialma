@@ -73,8 +73,6 @@
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
 }
@@ -85,8 +83,6 @@
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
 }
@@ -97,8 +93,6 @@
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
 }
@@ -109,8 +103,6 @@
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
 }
@@ -281,6 +273,7 @@
   margin-left: -15px;
   background: #fff;
   background: rgba(255, 255, 255, 0.4);
+  -webkit-border-radius: 25px;
   border-radius: 25px;
   padding-right: 5px;
   padding-left: 5px;
@@ -613,12 +606,12 @@
     background-color: #8adcb3;
     min-height: 350px !important;
     max-height: 350px !important;
+    display: none;
   }
 }
 @media screen and (min-width:768px) and (max-width: 991px) {
   #section3 {
     background-color: #8adcb3;
-    display: none;
   }
 }
 @media screen and (min-width:992px) and (max-width: 1199px) {
@@ -895,7 +888,9 @@
   margin: 0;
   font-family: "lightexpanded";
   width: 300px;
+  -webkit-box-sizing: border-box;
   /* For legacy WebKit based browsers */
+  -moz-box-sizing: border-box;
   /* For legacy (Firefox <29) Gecko based browsers */
   box-sizing: border-box;
   padding: 0 20px;
@@ -1022,6 +1017,7 @@
 #menubar li {
   background: #fff;
   background: rgba(255, 255, 255, 0.5);
+  -webkit-border-radius: 10px;
   border-radius: 10px;
 }
 @media screen and (max-width:767px) {
